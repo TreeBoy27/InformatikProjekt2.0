@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body class="Black-Gradient-Background">
+
+    <br>
+    <h1 id="headline-Name" class="Bold-Headline-Name Text-Fade-In-On-Load">NAME</h1>
+
+    <h1 class="Bold-Headline-Main Text-Fade-In-On-Load">Wie funktionieren Bilder auf einem Computer?</h1>
+    
+    <!--
+    <main>
+
+        <div id="container3D"></div>
+
+    </main>
+    -->
+
+    <div class="table-1">
+        <div class="container">
+            <div class="center">
+                <table id="binaryTable-Mono" class="normal-text Text-Fade-In-On-Load" style="width:300%">
+                    <tr>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>1</th>
+                    </tr>
+                    <tr>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </table>
+
+                <div class="table-margin-button">
+                    <button id="table-button-1" class="center-button" onclick="colorCellsMono()">Color Cells</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="palette">
+        <img src="Assets/Grapics/Palette.png">
+    </div>
+
+    <div class="table-2">
+        <div class="container">
+            <div class="center">
+                <table id="binaryTable-Palette" class="normal-text Text-Fade-In-On-Load" style="width:300%">
+                    <tr>
+                        <th>3</th>
+                        <th>3</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>3</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>0</th>
+                        <th>3</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>0</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th>0</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>2</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>0</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>2</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>0</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>0</th>
+                        <th>2</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>0</th>
+                        <th>2</th>
+                        <th>1</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>0</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>3</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>3</th>
+                        <th>3</th>
+                    </tr>
+                </table>
+
+                <div class="table-margin-button">
+                    <button id="table-button-2" class="center-button" onclick="colorCellsPalette()">Color Cells</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="Modules/3D-Implementation.js"></script>
+    <script>
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function colorCellsMono() {
+            const table = document.getElementById('binaryTable-Mono');
+            const cells = table.getElementsByTagName('th');
+            for (let i = 0; i < cells.length; i++) {
+                if (cells[i].innerText === '1') {
+                    await sleep(200); // 0.2 Sekunden warten
+                    cells[i].style.backgroundColor = 'white';
+                }
+                if (cells[i].innerText === '0') {
+                    await sleep(200); // 0.2 Sekunden warten
+                    cells[i].style.backgroundColor = 'black';
+                    cells[i].style.color = 'black';
+                }
+            }
+        }
+
+        async function colorCellsPalette() {
+            const table = document.getElementById('binaryTable-Palette');
+            const cells = table.getElementsByTagName('th');
+            for (let i = 0; i < cells.length; i++) {
+                if (cells[i].innerText === '0') {
+                    await sleep(200); // 0.2 Sekunden warten
+                    cells[i].style.backgroundColor = 'black';
+                    cells[i].style.color = 'black';
+                }
+                if (cells[i].innerText === '1') {
+                    await sleep(200); // 0.2 Sekunden warten
+                    cells[i].style.backgroundColor = 'red';
+                    cells[i].style.color = 'red';
+                }
+                if (cells[i].innerText === '2') {
+                    await sleep(200); // 0.2 Sekunden warten
+                    cells[i].style.backgroundColor = 'yellow';
+                    cells[i].style.color = 'yellow';
+                }
+                if (cells[i].innerText === '3') {
+                    await sleep(200); // 0.2 Sekunden warten
+                    cells[i].style.backgroundColor = 'white';
+                    cells[i].style.color = 'white';
+                }
+            }
+        }
+
+        function setupSite() {
+            input_name = prompt('Wilkommen! Wie heißt du?')
+
+            headline = document.getElementById('headline-Name')
+
+            headline.innerText = 'Hallo, ' + input_name + '!'
+            
+        }
+
+        
+    </script>
+</body>
+</html>
